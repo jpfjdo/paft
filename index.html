@@ -25,9 +25,9 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#education" class="menu-btn">Education</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#work" class="menu-btn">Work</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -66,7 +66,7 @@
     </section>
 
     <!-- services section start -->
-    <section class="education" id="education">
+    <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">Educational Background</h2>
             <div class="serv-content">
@@ -150,7 +150,7 @@
     </section>
 
     <!-- teams section start -->
-    <section class="work" id="work">
+    <section class="teams" id="teams">
         <div class="max-width">
             <h2 class="title">Job Experiences</h2>
             <div class="carousel owl-carousel">
@@ -225,28 +225,28 @@
                         </div>
                     </div>
                 </div>
-               <div class="column right">
-    <div class="text">Message me</div>
-    <form name="contact" netlify>
-        <div class="fields">
-            <div class="field name">
-                <input type="text" name="name" placeholder="Name" required>
-            </div>
-            <div class="field email">
-                <input type="email" name="email" placeholder="Email" required>
-            </div>
-        </div>
-        <div class="field">
-            <input type="text" name="subject" placeholder="Subject" required>
-        </div>
-        <div class="field textarea">
-            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
-        </div>
-        <div class="button-area">
-            <button type="submit">Send message</button>
-        </div>
-    </form>
-</div>                     
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>                            
                 </div>
             </div>
         </div>
