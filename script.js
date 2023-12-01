@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Student", "Former Sales Associate", "OIC", "Student", "Student"],
+        strings: ["Student", "Sales Associate", "OIC", "Product Specialist", "Brand Ambassador"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Student", "Former Sales Associate", "OIC", "Student", "Student"],
+        strings: ["Student", "Sales Associate", "OIC", "Product Specialist", "Brand Ambassador"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
